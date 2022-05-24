@@ -20,7 +20,7 @@ function getQuote() {
 		})
 		.then((data) => {
 			id.innerText = data.slip.id;
-			quote.innerText = data.slip.advice;
+			quote.innerText = `"${data.slip.advice}"`;
 		});
 }
 
