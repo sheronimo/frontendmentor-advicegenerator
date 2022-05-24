@@ -54,8 +54,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 3.25rem;
-	padding-bottom: 4rem;
+	padding: 3.25rem 3.25rem 4.5rem 3.25rem;
 	background-color: var(--clr-neutral-darker);
 	border-radius: 1rem;
 	position: relative;
@@ -93,4 +92,14 @@ body {
 
 .btn-getquote:hover {
 	filter: drop-shadow(0 0 1rem var(--clr-secondary));
+}
+
+@media (max-width: 37.5rem) {
+	.card {
+		padding: 2.75rem 1.75rem 4rem 1.75rem;
+	}
+
+	.advice-text {
+		margin-bottom: 1.4375rem;
+	}
 }
