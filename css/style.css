@@ -32,3 +32,15 @@ button {
 	border: none;
 	cursor: pointer;
 }
+
+body {
+	background-color: var(--clr-neutral-darkest);
+	color: var(--clr-primary);
+	font-family: var(--ff);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+}
