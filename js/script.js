@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
 });
 
 function getQuote() {
-	fetch(endpoint, { cache: 'no-cache' })
+	fetch(endpoint, { cache: 'no-store' })
 		.then((response) => {
 			console.log(response);
 			return response.json();
