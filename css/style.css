@@ -88,4 +88,9 @@ body {
 	position: absolute;
 	bottom: 0;
 	transform: translateY(50%);
+	transition: filter 0.3s ease-in;
+}
+
+.btn-getquote:hover {
+	filter: drop-shadow(0 0 1rem var(--clr-secondary));
 }
