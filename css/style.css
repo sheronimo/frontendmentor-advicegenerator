@@ -44,6 +44,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	line-height: 1.5;
+	padding: 1rem;
 }
 
 .card {
@@ -54,8 +55,10 @@ body {
 	justify-content: center;
 	text-align: center;
 	padding: 3.25rem;
+	padding-bottom: 4rem;
 	background-color: var(--clr-neutral-darker);
 	border-radius: 1rem;
+	position: relative;
 }
 
 .advice-heading {
@@ -72,4 +75,17 @@ body {
 	font-weight: 800;
 	line-height: 1.4;
 	margin-bottom: 2.5rem;
+}
+
+.btn-getquote {
+	width: 4rem;
+	aspect-ratio: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: var(--clr-secondary);
+	position: absolute;
+	bottom: 0;
+	transform: translateY(50%);
 }
