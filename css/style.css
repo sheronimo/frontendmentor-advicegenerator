@@ -33,6 +33,7 @@ button {
 	cursor: pointer;
 }
 
+/* Main Styling */
 body {
 	background-color: var(--clr-neutral-darkest);
 	color: var(--clr-primary);
@@ -43,4 +44,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	line-height: 1.5;
+}
+
+.card {
+	max-width: var(--max-width);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 3.25rem;
+	background-color: var(--clr-neutral-darker);
 }
