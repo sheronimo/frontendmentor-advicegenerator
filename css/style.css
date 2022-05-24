@@ -1,6 +1,7 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 
+/* CSS Variables */
 :root {
 	--ff: 'Manrope', sans-serif;
 	--max-width: 33.75rem;
@@ -11,4 +12,23 @@
 	--clr-neutral: hsl(217, 19%, 38%);
 	--clr-neutral-darker: hsl(217, 19%, 24%);
 	--clr-neutral-darkest: hsl(218, 23%, 16%);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	border: none;
+	cursor: pointer;
 }
