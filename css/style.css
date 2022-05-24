@@ -1,2 +1,14 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+:root {
+	--ff: 'Manrope', sans-serif;
+	--max-width: 33.75rem;
+
+	--clr-primary: hsl(193, 38%, 86%);
+	--clr-secondary: hsl(150, 100%, 66%);
+
+	--clr-neutral: hsl(217, 19%, 38%);
+	--clr-neutral-darker: hsl(217, 19%, 24%);
+	--clr-neutral-darkest: hsl(218, 23%, 16%);
+}
